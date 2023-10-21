@@ -2,7 +2,13 @@
 
 ## Ejercicio 1 Qué funciones se pueden usar en los scripts de Unity para llevar a cabo traslaciones, rotaciones y escalados.
 
+Se utilizan Transform.Translate(Vector3 direction), Transform.Rotate(Rotate(float xAngle, float yAngle, float zAngle) y la propiedad Transform.localScale que permite cambiar el escalado de un objeto con respecto a su padre.
+
 ## Ejercicio 2 Como trasladarías la cámara 2 metros en cada uno de los ejes y luego la rotas 30º alrededor del eje Y?. Rota la cámara alrededor del eje Y 30ª y desplázala 2 metros en cada uno de los ejes. ¿Obtendrías el mismo resultado en ambos casos?. Justifica el resultado
+
+Ejecutaría:
+camera.transform.Translate(2, 2, 2);
+camera.transform.Rotate(0, 30, 0);
 
 ## Ejercicio 3 Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura un volumen de vista que la recorte parcialmente.
 
