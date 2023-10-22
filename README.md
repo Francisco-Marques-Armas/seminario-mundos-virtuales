@@ -49,6 +49,16 @@ Se obtiene el efecto contrario.
 
 ## Ejercicio 6 Es correcta la siguiente afirmación: Para realizar la proyección al espacio 2D, en el inspector de la cámara, cambiaremos el valor de projection, asignándole el valor de orthographic
 
+Se pierde el efecto de la perspectiva y la distorsión que proporciona dando sentido de profundidad, así que podría considerarse que sí se realiza una proyección al espacio 2D.
+
+En perspectiva:
+
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/a9bc154d-4890-4fab-9597-501e4ff60f5d)
+
+En ortográfica:
+
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/5ead5c64-c527-4057-a577-9b36edf3ae34)
+
 ## Ejercicio 7 Especifica las rotaciones que se han indicado en los ejercicios previos con la utilidad quaternion.
 
 ## Ejercicio 8 ¿Como puedes averiguar la matriz de proyección en perspectiva que se ha usado para proyectar la escena al último frame renderizado?.
