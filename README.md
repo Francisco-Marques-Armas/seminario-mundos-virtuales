@@ -10,7 +10,9 @@ En el primer caso, ejecutaría:
 ```csharp
 camera.transform.Translate(2, 2, 2);
 camera.transform.Rotate(0, 30, 0);
+```
 En el segundo, ejecutaría:
+```csharp
 camera.transform.Rotate(0, 30, 0);
 camera.transform.Translate(2, 2, 2);
 ```
