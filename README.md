@@ -6,10 +6,15 @@ Se utilizan Transform.Translate(Vector3 direction), Transform.Rotate(Rotate(floa
 
 ## Ejercicio 2 Como trasladarías la cámara 2 metros en cada uno de los ejes y luego la rotas 30º alrededor del eje Y?. Rota la cámara alrededor del eje Y 30ª y desplázala 2 metros en cada uno de los ejes. ¿Obtendrías el mismo resultado en ambos casos?. Justifica el resultado
 
-Ejecutaría:
+En el primer caso, ejecutaría:
+```csharp
 camera.transform.Translate(2, 2, 2);
 camera.transform.Rotate(0, 30, 0);
-
+En el segundo, ejecutaría:
+camera.transform.Rotate(0, 30, 0);
+camera.transform.Translate(2, 2, 2);
+```
+El orden afecta al resultado porque en el primer caso la cámara se mueve usando los ejes iniciales, pero en el segundo cuando se mueva tendrá en cuenta los nuevos ejes que se obtienen tras la rotación.
 ## Ejercicio 3 Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura un volumen de vista que la recorte parcialmente.
 
 ## Ejercicio 4 Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura el volumen de vista para que la deje fuera de la vista.
