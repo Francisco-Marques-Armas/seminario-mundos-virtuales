@@ -63,7 +63,7 @@ En ortográfica:
 
 En el ejemplo de Unity para el uso de Quaternion.Euler (que permite pasar una rotación especificada con grados x, y, z a cuaternión) se resuelve este problema:
 
-![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/8cc0ec5e-64a1-489a-ab21-4fe0860a2f6e)
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/23a8b496-8086-4bdd-9cb1-651d442832a1)
 
 ## Ejercicio 8 ¿Como puedes averiguar la matriz de proyección en perspectiva que se ha usado para proyectar la escena al último frame renderizado?.
 
