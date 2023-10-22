@@ -16,7 +16,17 @@ En el segundo, ejecutaría:
 camera.transform.Rotate(0, 30, 0);
 camera.transform.Translate(2, 2, 2);
 ```
-El orden afecta al resultado porque en el primer caso la cámara se mueve usando los ejes iniciales, pero en el segundo cuando se mueva tendrá en cuenta los nuevos ejes que se obtienen tras la rotación.
+
+El orden influirá en lo obtenido porque en el primer caso la cámara se mueve usando los ejes iniciales, pero en el segundo cuando se mueva tendrá en cuenta los nuevos ejes que se obtienen tras la rotación.
+
+Resultado de la primera ejecución:
+
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/72fb2bda-8917-4b3a-8724-061499a65f81)
+
+Resultado de la segunda ejecución:
+
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/ee4ef5d9-de59-49cb-88e3-995348b34605)
+
 ## Ejercicio 3 Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura un volumen de vista que la recorte parcialmente.
 
 ## Ejercicio 4 Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura el volumen de vista para que la deje fuera de la vista.
