@@ -1,4 +1,4 @@
-![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/f0d9f3ff-fe81-471c-98d5-fdab5981a365)# Seminario: Mundos virtuales. Introducción a la programación de gráficos 3D.
+# Seminario: Mundos virtuales. Introducción a la programación de gráficos 3D.
 
 ## Ejercicio 1 Qué funciones se pueden usar en los scripts de Unity para llevar a cabo traslaciones, rotaciones y escalados.
 
