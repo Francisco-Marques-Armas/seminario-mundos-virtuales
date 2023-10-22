@@ -22,14 +22,30 @@ El orden debería influir en lo obtenido porque en el primer caso la cámara se 
 ## Ejercicio 3 Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura un volumen de vista que la recorte parcialmente.
 
 Podemos cambiar el volumen de vista o frustum en el inspector o alterando las propiedades Camera.nearClipPlane o Camera.farClipPlane. Near representa la distancia mínima necesaria para visualizar un objeto y far la distancia máxima. Se puede observar el resultado en la miniatura:
+
 ![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/c882e221-3cb1-440d-85e7-d8cbe82070c8)
 
 ## Ejercicio 4 Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura el volumen de vista para que la deje fuera de la vista.
 
 Se puede aumentar near todavía más para que ni siquiera se observe la esfera:
+
 ![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/34910937-ecac-4823-93e8-d7703895f05d)
 
 ## Ejercicio 5 Como puedes aumentar el ángulo de la cámara. Qué efecto tiene disminuir el ángulo de la cámara.
+
+Se puede alterar la propiedad Camera.fieldOfView. Se pueden observar los efectos...
+
+1. Aumentando el campo de visión:
+
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/8a972fbc-3941-4107-a94a-ef7256a42b46)
+
+Un objeto en la misma posición parece de menor tamaño al ocupar menor porción del campo de visión.
+
+2. Disminuyendo el campo de visión:
+
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/39f3116f-423b-4ba4-9768-8508b06e9513)
+
+Se obtiene el efecto contrario.
 
 ## Ejercicio 6 Es correcta la siguiente afirmación: Para realizar la proyección al espacio 2D, en el inspector de la cámara, cambiaremos el valor de projection, asignándole el valor de orthographic
 
