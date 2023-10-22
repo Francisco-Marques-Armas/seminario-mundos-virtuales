@@ -125,6 +125,24 @@ Debug.Log("Matriz de Modelo: " + modelMatrix.ToString());
 
 ## Ejercicio 14 Aplica una rotación en el start de uno de los objetos de la escena y muestra la matriz de cambio al sistema de referencias mundial.
 
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/49b2cbf2-b27f-4a0f-80d9-5dc94e949b72)
+
+Se ha ejecutado lo siguiente:
+```csharp
+transform.Rotate(0, 30, 0);
+Debug.Log("Matriz de cambio del sistema local al mundial: " + transform.localToWorldMatrix);
+```
 ## Ejercicio 15 ¿Como puedes calcular las coordenadas del sistema de referencia de un objeto con las siguientes propiedades del Transform:?: Position (3, 1, 1), Rotation (45, 0, 45)
 
+Si con sistema de referencia se refiere al sistema de referencia mundial, y la posición y rotación son locales, para la posición local habría que tener en cuenta la del padre, y para la rotación se podrían aplicar los siguientes cálculos:
 
+```csharp
+Quaternion rotation = Quaternion.Euler(45, 0, 45);
+
+// Aplicar la rotación a los ejes estándar.
+Vector3 newXAxis = rotation * Vector3.right; // Eje X
+Vector3 newYAxis = rotation * Vector3.up;    // Eje Y
+Vector3 newZAxis = rotation * Vector3.forward; // Eje Z
+```
+
+E interpretar los resultados obtenidos.
