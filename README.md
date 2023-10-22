@@ -1,4 +1,4 @@
-# Seminario: Mundos virtuales. Introducción a la programación de gráficos 3D.
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/f0d9f3ff-fe81-471c-98d5-fdab5981a365)# Seminario: Mundos virtuales. Introducción a la programación de gráficos 3D.
 
 ## Ejercicio 1 Qué funciones se pueden usar en los scripts de Unity para llevar a cabo traslaciones, rotaciones y escalados.
 
@@ -17,19 +17,17 @@ camera.transform.Rotate(0, 30, 0);
 camera.transform.Translate(2, 2, 2);
 ```
 
-El orden influirá en lo obtenido porque en el primer caso la cámara se mueve usando los ejes iniciales, pero en el segundo cuando se mueva tendrá en cuenta los nuevos ejes que se obtienen tras la rotación.
-
-Resultado de la primera ejecución:
-
-![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/72fb2bda-8917-4b3a-8724-061499a65f81)
-
-Resultado de la segunda ejecución:
-
-![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/ee4ef5d9-de59-49cb-88e3-995348b34605)
+El orden debería influir en lo obtenido porque en el primer caso la cámara se mueve usando los ejes iniciales, pero en el segundo cuando se mueva tendrá en cuenta los nuevos ejes que se obtienen tras la rotación.
 
 ## Ejercicio 3 Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura un volumen de vista que la recorte parcialmente.
 
+Podemos cambiar el volumen de vista o frustum en el inspector o alterando las propiedades Camera.nearClipPlane o Camera.farClipPlane. Near representa la distancia mínima necesaria para visualizar un objeto y far la distancia máxima. Se puede observar el resultado en la miniatura:
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/c882e221-3cb1-440d-85e7-d8cbe82070c8)
+
 ## Ejercicio 4 Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura el volumen de vista para que la deje fuera de la vista.
+
+Se puede aumentar near todavía más para que ni siquiera se observe la esfera:
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/34910937-ecac-4823-93e8-d7703895f05d)
 
 ## Ejercicio 5 Como puedes aumentar el ángulo de la cámara. Qué efecto tiene disminuir el ángulo de la cámara.
 
