@@ -97,6 +97,8 @@ Usando la propiedad Transform.worldToLocalMatrix.
 
 ## Ejercicio 11 Cómo puedes obtener la matriz para cambiar al sistema de referencia de vista
 
+Mediante la propiedad Camera.worldToCameraMatrix.
+
 ## Ejercicio 12 Especifica la matriz de la proyección usado en un instante de la ejecución del ejercicio 1 de la práctica 1.
 
 ## Ejercicio 13 Especifica la matriz de modelo y vista de la escena del ejercicio 1 de la práctica 1.
