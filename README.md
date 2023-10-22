@@ -93,6 +93,8 @@ Con la misma propiedad. El script anterior sigue funcionando sin problemas.
 
 ## Ejercicio 10 ¿Cómo puedes obtener la matriz de transformación entre el sistema de coordenadas local y el mundial?.
 
+Usando la propiedad Transform.worldToLocalMatrix.
+
 ## Ejercicio 11 Cómo puedes obtener la matriz para cambiar al sistema de referencia de vista
 
 ## Ejercicio 12 Especifica la matriz de la proyección usado en un instante de la ejecución del ejercicio 1 de la práctica 1.
