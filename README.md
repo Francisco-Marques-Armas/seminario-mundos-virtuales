@@ -61,6 +61,10 @@ En ortográfica:
 
 ## Ejercicio 7 Especifica las rotaciones que se han indicado en los ejercicios previos con la utilidad quaternion.
 
+En el ejemplo de Unity para el uso de Quaternion.Euler (que permite pasar una rotación especificada con grados x, y, z a cuaternión) se resuelve este problema:
+
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/8cc0ec5e-64a1-489a-ab21-4fe0860a2f6e)
+
 ## Ejercicio 8 ¿Como puedes averiguar la matriz de proyección en perspectiva que se ha usado para proyectar la escena al último frame renderizado?.
 
 ## Ejercicio 9 ¿Como puedes averiguar la matriz de proyección en perspectiva ortográfica que se ha usado para proyectar la escena al último frame renderizado?.
