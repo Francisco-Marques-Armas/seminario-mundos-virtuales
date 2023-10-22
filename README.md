@@ -101,7 +101,27 @@ Mediante la propiedad Camera.worldToCameraMatrix.
 
 ## Ejercicio 12 Especifica la matriz de la proyección usado en un instante de la ejecución del ejercicio 1 de la práctica 1.
 
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/1ac030e8-fb6c-415a-97b9-d774b2f20042)
+
+Se ha utilizado:
+
+```csharp
+Matrix4x4 projectionMatrix = GetComponent<Camera>().projectionMatrix;
+Debug.Log("Matriz de proyección: " + projectionMatrix.ToString());
+```
 ## Ejercicio 13 Especifica la matriz de modelo y vista de la escena del ejercicio 1 de la práctica 1.
+
+La matriz de modelo se refiere a la matriz que pasa de posición, rotación y traslación locales de un objeto a las del mundo. Por matriz de vista se supone la matriz para pasar de coordenadas del mundo a las de la cámara principal.
+
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/ecb8568e-5139-4656-a9c1-4315c6ea47ef)
+
+Se ha ejecutado lo siguiente:
+```csharp
+Matrix4x4 viewMatrix = main_camera.worldToCameraMatrix;
+Debug.Log("Matriz de Vista: " + viewMatrix.ToString());
+Matrix4x4 modelMatrix = transform.localToWorldMatrix;
+Debug.Log("Matriz de Modelo: " + modelMatrix.ToString());
+```
 
 ## Ejercicio 14 Aplica una rotación en el start de uno de los objetos de la escena y muestra la matriz de cambio al sistema de referencias mundial.
 
