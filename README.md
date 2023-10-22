@@ -65,7 +65,17 @@ En el ejemplo de Unity para el uso de Quaternion.Euler (que permite pasar una ro
 
 ![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/23a8b496-8086-4bdd-9cb1-651d442832a1)
 
+Para aplicar todas las operaciones realizadas anteriormente, se ejecutaría:
+
+```csharp
+Quaternion rotation = Quaternion.Euler(0, 30, 0);
+transform.rotation = rotation * transform.rotation;
+camera.transform.Rotate(0, 30, 0);
+```
+
 ## Ejercicio 8 ¿Como puedes averiguar la matriz de proyección en perspectiva que se ha usado para proyectar la escena al último frame renderizado?.
+
+Con la propiedad Camera.previousViewProjectionMatrix.
 
 ## Ejercicio 9 ¿Como puedes averiguar la matriz de proyección en perspectiva ortográfica que se ha usado para proyectar la escena al último frame renderizado?.
 
