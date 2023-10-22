@@ -77,7 +77,19 @@ camera.transform.Rotate(0, 30, 0);
 
 Con la propiedad Camera.previousViewProjectionMatrix.
 
+Se ha ejecutado el siguiente código:
+
+```csharp
+Debug.Log("Previous camera projection matrix: " + GetComponent<Camera>().previousViewProjectionMatrix);
+```
+
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/e217a572-b1ba-48f1-8db7-fbd4de40e6ca)
+
 ## Ejercicio 9 ¿Como puedes averiguar la matriz de proyección en perspectiva ortográfica que se ha usado para proyectar la escena al último frame renderizado?.
+
+Con la misma propiedad. El script anterior sigue funcionando sin problemas.
+
+![imagen](https://github.com/Francisco-Marques-Armas/seminario-mundos-virtuales/assets/72305337/6800b3b7-d06c-482c-a7fb-90118411dce5)
 
 ## Ejercicio 10 ¿Cómo puedes obtener la matriz de transformación entre el sistema de coordenadas local y el mundial?.
 
